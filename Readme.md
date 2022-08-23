@@ -10,7 +10,12 @@ Content Based Recommender System recommends movies similar to the movie user lik
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
+## :file_folder: Dataset
+The dataset used can be downloaded here - [Click to Download](https://github.com/utsav-verma/Movie-Recommendation/tree/main/dataset)
 
+This dataset consists of __4095 images__ belonging to two classes:
+*	__with_mask: 2165 images__
+*	__without_mask: 1930 images__
 
 ## Architecture
 
